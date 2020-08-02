@@ -4,12 +4,22 @@ All rights reserved. The authorized use of this data is limited to informational
 
 ############################## LIST OF FILES ########################################
 
-parameter_general.m: to generate parameters for multistage DDDR with Type-1 ambiguity set Pattern 1-1;
+-M-DDDR
+--small_instances
+    -parameter_general.m: to generate parameters for multistage DDDR with Type-1 ambiguity set Pattern 1-1;
 
-parameter_match.m: to generate parameters for multistage DDDR with Type-2 ambiguity set Pattern 2-1;
+    -parameter_match.m: to generate parameters for multistage DDDR with Type-2 ambiguity set Pattern 2-1;
 
-parameter_bound.m: to generate parameters for multistage DDDR with Type-3 ambiguity set Pattern 3-1;
+    -parameter_bound.m: to generate parameters for multistage DDDR with Type-3 ambiguity set Pattern 3-1;
 
-demand.m: to generate demand scenarios where demand(t,i) is the demand in stage t, scenario i.
+    -demand.m: to generate demand scenarios where demand(t,i) is the demand in stage t, scenario i.
+    
+--large_instances
+    -parameter_general.m: to generate parameters for multistage DDDR with Type-1 ambiguity set and large-scale instances;
+
+    -parameter_bound.m: to generate parameters for multistage DDDR with Type-3 ambiguity set and large-scale instances;
+
+    -demand_normal.m: to generate demand scenarios following Normal distribution where demand(t,i) is the demand in stage t, scenario i.
+    
 
 Descriptions of models and parameter settings see Yu, X., Shen, S., "Multistage Distributionally Robust Mixed-Integer Programming with Decision-Dependent Moment-Based Ambiguity Sets," submitted, 2020.
