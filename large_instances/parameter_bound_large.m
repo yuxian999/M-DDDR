@@ -1,4 +1,4 @@
-% solve moment bound by yalmip
+% generate parameters for multistage DRO-DD with Type-3 ambiguity set and larger-scale instances
 I = 3; %number of facilities
 J = 6; %number of customers
 K = 10;
