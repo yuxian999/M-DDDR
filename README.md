@@ -4,8 +4,8 @@ All rights reserved. The authorized use of this data is limited to informational
 
 ############################## LIST OF FILES ########################################
 
--M-DDDR
 --small_instances
+
     -parameter_general.m: to generate parameters for multistage DDDR with Type-1 ambiguity set Pattern 1-1;
 
     -parameter_match.m: to generate parameters for multistage DDDR with Type-2 ambiguity set Pattern 2-1;
@@ -15,6 +15,7 @@ All rights reserved. The authorized use of this data is limited to informational
     -demand.m: to generate demand scenarios where demand(t,i) is the demand in stage t, scenario i.
     
 --large_instances
+
     -parameter_general.m: to generate parameters for multistage DDDR with Type-1 ambiguity set and large-scale instances;
 
     -parameter_bound.m: to generate parameters for multistage DDDR with Type-3 ambiguity set and large-scale instances;
