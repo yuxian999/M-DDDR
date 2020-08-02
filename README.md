@@ -16,9 +16,9 @@ All rights reserved. The authorized use of this data is limited to informational
     
 --large_instances
 
-    -parameter_general.m: to generate parameters for multistage DDDR with Type-1 ambiguity set and large-scale instances;
+    -parameter_general_large.m: to generate parameters for multistage DDDR with Type-1 ambiguity set and large-scale instances;
 
-    -parameter_bound.m: to generate parameters for multistage DDDR with Type-3 ambiguity set and large-scale instances;
+    -parameter_bound_large.m: to generate parameters for multistage DDDR with Type-3 ambiguity set and large-scale instances;
 
     -demand_normal.m: to generate demand scenarios following Normal distribution where demand(t,i) is the demand in stage t, scenario i.
     
